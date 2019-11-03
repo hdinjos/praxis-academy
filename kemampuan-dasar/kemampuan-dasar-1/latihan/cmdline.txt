@@ -1,0 +1,85 @@
+1. ls
+hdinjos@MINIC-hdpc:~$ ls
+Desktop    Downloads  Pictures  snap       Templates
+Documents  Music      Public    SoftMaker  Videos
+
+
+2. cat
+hdinjos@MINIC-hdpc:~$ cat > tes.txt
+ini hanya tes
+
+3. rm
+Desktop    Downloads  Pictures	snap	   Templates  tes.txt
+Documents  Music      Public	SoftMaker  tes	      Videos
+hdinjos@MINIC-hdpc:~$ nano tes
+tes      tes.txt  
+hdinjos@MINIC-hdpc:~$ nano tes
+tes      tes.txt  
+hdinjos@MINIC-hdpc:~$ nano tes
+tes      tes.txt  
+hdinjos@MINIC-hdpc:~$ nano tes
+tes      tes.txt  
+hdinjos@MINIC-hdpc:~$ nano tes.txt 
+hdinjos@MINIC-hdpc:~$ ^C
+hdinjos@MINIC-hdpc:~$ rm tes.txt 
+hdinjos@MINIC-hdpc:~$ ls
+Desktop    Downloads  Pictures  snap       Templates  Videos
+Documents  Music      Public    SoftMaker  tes
+hdinjos@MINIC-hdpc:~$ 
+
+4.mv 
+hdinjos@MINIC-hdpc:~$ ls
+Desktop    Downloads  Music     Public  SoftMaker  tes
+Documents  index.txt  Pictures  snap    Templates  Videos
+
+5. mkdir
+hdinjos@MINIC-hdpc:~$ mkdir vue
+hdinjos@MINIC-hdpc:~$ ls
+Desktop    Downloads  Pictures  snap       Templates  Videos
+Documents  Music      Public    SoftMaker  tes        vue
+
+6. rmdir
+hdinjos@MINIC-hdpc:~$ rmdir vue/
+hdinjos@MINIC-hdpc:~$ ls
+Desktop    Downloads  Pictures  snap       Templates  Videos
+Documents  Music      Public    SoftMaker  tes
+
+7. history
+hdinjos@MINIC-hdpc:~$ history
+    1  sudo dpkgi -i google-chrome-stable_current_amd64.deb 
+    2  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+    3  clear
+    4  sudo apt-get update 
+    5  sudo snap install code --classic 
+    6  sudo apt-get update 
+    7  sudo apt-get upgrade 
+    8  clear
+
+8. clear
+hdinjos@MINIC-hdpc:~$ ping google.com
+PING forcesafesearch.google.com (216.239.38.120) 56(84) bytes of data.
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=1 ttl=47 time=69.8 ms
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=2 ttl=47 time=449 ms
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=3 ttl=47 time=99.5 ms
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=4 ttl=47 time=1021 ms
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=5 ttl=47 time=122 ms
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=6 ttl=47 time=144 ms
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=7 ttl=47 time=120 ms
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=8 ttl=47 time=78.9 ms
+^C
+--- forcesafesearch.google.com ping statistics ---
+8 packets transmitted, 8 received, 0% packet loss, time 7029ms
+rtt min/avg/max/mdev = 69.886/263.304/1021.827/308.791 ms, pipe 2
+hdinjos@MINIC-hdpc:~$ clear
+
+9. cp
+hdinjos@MINIC-hdpc:~/moveon$ cp wh.cog like/
+hdinjos@MINIC-hdpc:~/moveon$ cd like/
+hdinjos@MINIC-hdpc:~/moveon/like$ ls
+wh.cog
+
+10. cd 
+hdinjos@MINIC-hdpc:~/moveon$ cd like/
+hdinjos@MINIC-hdpc:~/moveon/like$
+
+
