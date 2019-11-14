@@ -5,7 +5,8 @@ Alpha.prototype.isAlpha = function(letter){
 };
 
 function Vowel(){};
-let vowel = new Alpha();
+Vowel.prototype = new Alpha();
+let vowel = new Vowel ();
 
 Vowel.prototype.isVowel = function(letter){
     return /^[aeiouyAEIOUY]$/.test(letter);
@@ -13,7 +14,8 @@ Vowel.prototype.isVowel = function(letter){
 console.log(vowel.isAlpha("a")); //this inheritance from Alpha
 
 function Consonant(){};
-let consonant = new Alpha();
+Consonant.prototype = new Alpha();
+let consonant = new Consonant();
 
 Alpha.prototype.isConsonant = function(letter){
     return /^aeiouyAEIOUY$/.test(letter);
