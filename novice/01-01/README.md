@@ -17,25 +17,28 @@
 novice/
 └── 01-01
     ├── kasus
-    │    ├── kasus-1
-    │    │    └─── make-start.js 
-    │    ├── kasus-2
-    │    │    └─── FizzBuzz.js
-    │    └── kasus-3
-    │         └─── chess-board.js
-    └── latihan
-            ├── latihan-1
-            │    └─── install-node-js.txt 
-            ├── latihan-2
-            │    └─── install-vscode.txt
-            └── latihan-3
-                    ├─── latihan-3a
-                    │         ├─── images
-                    │         │       └─── Firefox2.png
-                    │         └─── script
-                    │                 └─── main.js
-                    ├─── index.html
-                    └─── latihan-3b.txt          
+    │     ├── kasus-1
+    │     │      └─── make-start.js 
+    │     ├── kasus-2
+    │     │      └─── FizzBuzz.js
+    │     └── kasus-3
+    │            └─── chess-board.js
+    ├── latihan
+    │     ├── latihan-1
+    │     │      └─── install-node-js.txt 
+    │     ├── latihan-2
+    │     │      └─── install-vscode.txt
+    │     └── latihan-3
+    │            ├─── latihan-3a
+    │            │       ├─── images
+    │            │       │       └─── Firefox2.png
+    │            │       └─── script
+    │            │               └─── main.js
+    │            ├─── index.html
+    │            └─── latihan-3b.txt
+    │      
+    └─── README.md          
+
 ```
 
 Lisensi: MIT :)
