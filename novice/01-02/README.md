@@ -6,16 +6,16 @@
 
 ### Ringkasan materi:
 1. Pengandali alur:
-    *if .. else
-    *switch
-    *try ... catch ... throw
+    * if .. else
+    * switch
+    * try ... catch ... throw
 2. Iterasi dan looping
-    *for
-    *while
-    *do ... while
-    *break/continue
-    *for ... in
-    *for ... of
+    * for
+    * while
+    * do ... while
+    * break/continue
+    * for ... in
+    * for ... of
 
 ### Penjelasan tentang isi repo:
 ```
