@@ -17,7 +17,7 @@
 
 ```
 novice/
-└── 01-03
+└── 01-03/
     ├── kasus/
     │     ├── fortune-teller.js
     │     │      
@@ -36,7 +36,7 @@ novice/
     │     │       
     │     ├── 6.generator.js
     │     │      
-    │     ├── 7. arrow-function.js  
+    │     ├── 7.arrow-function.js  
     │     │      
     │     └── 8.function-hoisted.js
     │
