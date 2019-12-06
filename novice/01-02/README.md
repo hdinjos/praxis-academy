@@ -20,8 +20,8 @@
 ### Penjelasan tentang isi repo:
 ```
 novice/
-└── 01-01
-    ├── kasus
+└── 01-02/
+    ├── kasus/
     │     ├── 01.html       
     │     ├── 02.html      
     │     ├── 03.html
@@ -29,7 +29,7 @@ novice/
     │     ├── ....html
     │     └── 12.html
     │            
-    ├── latihan
+    ├── latihan/
     │     ├── do-while.js
     │     ├── for-looping.html
     │     ├── full-error-handling.js
@@ -38,7 +38,7 @@ novice/
     │     ├── try-catch.js
     │     └── while.js
     │            
-    └─── README.md          
+    └── README.md          
 
 ```
 
